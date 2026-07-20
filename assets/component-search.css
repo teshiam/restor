@@ -1,0 +1,31 @@
+.header__search .field {
+  display: flex;
+  align-items: baseline;
+}
+
+.header__search .search__input {
+  border-bottom: 0;
+  flex-grow: 1;
+  width: auto;
+  margin-bottom: 0;
+  padding: 1.8rem 0 1.2rem 1rem;
+  font-size: 1.2rem;
+  background: transparent;
+}
+
+.header__search .search__button {
+  width: 2.7rem;
+  padding-left: 1rem;
+  padding: .8rem 0 .5rem 1rem;
+}
+
+@media screen and (min-width: 990px) {
+  .header__search .search__input {
+    padding: 1.5rem 0 1rem 1rem;
+    line-height: 2rem;
+  }
+
+  .header__search .search__button {
+    padding: .5rem 0 .5rem 1rem;
+  }
+}

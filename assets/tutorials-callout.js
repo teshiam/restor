@@ -1,0 +1,2 @@
+for(var i=0;i<document.querySelectorAll(".swiper__tutorials").length;i++){const elArray=document.querySelectorAll(".swiper__tutorials");if(!elArray[i].classList.contains("initiated")){elArray[i].classList.add("initiated");const tutorialsSwiper=new Swiper(elArray[i],{slidesPerView:"auto",autoHeight: true,loop:!1,allowTouchMove:!0,mousewheel:{forceToAxis:!0},navigation:{nextEl:".swiper-next",prevEl:".swiper-prev"}})}}
+//# sourceMappingURL=/cdn/shop/t/308/assets/tutorials-callout.js.map?v=54804865261722662591704922127
