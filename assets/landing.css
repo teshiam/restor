@@ -12955,6 +12955,10 @@ flowplayer-ad-controls .fp-ad-choices:after {
   height: 100%;
   object-fit: cover;
 }
+#restor-embrace img {
+  height: 90vh;
+  object-fit: cover;
+}
 
 @media (max-width: 1024px) {
   .c-carousel,
@@ -12991,6 +12995,10 @@ flowplayer-ad-controls .fp-ad-choices:after {
     margin: 1rem;
     max-width: 7rem!important;
   }
+  #restor-embrace img {
+    height: 100%;
+    object-fit: cover;
+    }
 }
 
 @media (max-width: 600px) {
